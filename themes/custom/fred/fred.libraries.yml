@@ -1,0 +1,11 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap.css: {}
+      css/style.css: {}
+    js:
+      js/typed.js: {}
+      js/particles.js: {}
+      js/app.js: {}
+      js/typed_exec.js: {}

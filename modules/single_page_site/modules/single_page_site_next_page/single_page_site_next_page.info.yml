@@ -1,0 +1,12 @@
+name: Single Page Site Next Page
+description: 'Displays a "scroll to next page" button on every single page item.'
+type: module
+# core: 8.x
+package: Design
+dependencies:
+  - single_page_site
+# Information added by Drupal.org packaging script on 2016-09-30
+version: '8.x-1.2'
+core: '8.x'
+project: 'single_page_site'
+datestamp: 1475235562

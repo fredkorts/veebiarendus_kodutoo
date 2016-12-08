@@ -1,0 +1,13 @@
+name: Single Page Site
+description: 'Provides the ability to create single page websites.'
+type: module
+# core: 8.x
+package: Design
+dependencies:
+  - menu_link_content
+configure: single_page_site.config
+# Information added by Drupal.org packaging script on 2016-09-30
+version: '8.x-1.2'
+core: '8.x'
+project: 'single_page_site'
+datestamp: 1475235562

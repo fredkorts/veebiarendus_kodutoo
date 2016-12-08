@@ -1,0 +1,13 @@
+name: Time Spent
+description: Monitors the time that users spent on your site and pages.
+type: module
+package: Statistics
+# core: 8.x
+configure: time_spent.config
+dependencies:
+  - views
+# Information added by Drupal.org packaging script on 2016-09-27
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'time_spent'
+datestamp: 1474966758

@@ -1,0 +1,25 @@
+<div id="page">
+  {% if page.header %}
+		<section id="headline">
+			<div class= "container">
+			  {{ page.header }}
+			</div>
+		</section> 
+    {% endif %}
+
+	<header id="header">
+		<div class="container">
+			{{ page.primary_menu }}
+		</div>
+	</header>
+	<section id="main">
+		<div class="container" id="konteiner">
+		  <div class="row">
+			  <div id="content" class="col-md-12 col-sm-12 col-xs-12">
+				  {{ page.content }}
+			  </div>
+		  </div>
+		</div>
+	</section>
+
+</div>
